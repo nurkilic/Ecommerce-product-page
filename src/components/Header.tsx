@@ -1,6 +1,5 @@
 import logo from "../assets/images/logo.svg";
 import Navbar from "./Navbar";
-import basketimg from "../assets/images/icon-cart.svg";
 import avatar from "../assets/images/image-avatar.png";
 import menu from "../assets/images/icon-menu.svg";
 
