@@ -26,7 +26,7 @@ function ProductImagePage() {
       {selectedProduct !== 3 ? <Next /> : ""}
       {selectedProduct !== 0 ? <Previous /> : ""}
       <img
-        className="max-[900px]:min-h-[480px] max-[900px]:object-cover h-[440px] w-[440px]  rounded-2xl my-9 max-[900px]:my-0 max-[900px]:w-full max-[900px]:rounded-none max-[900px]:h-auto bg-bottom"
+        className="max-[900px]:min-h-[480px] max-[900px]:object-cover h-[440px] w-[440px]  rounded-2xl my-9 max-[900px]:my-0 max-[900px]:w-full max-[900px]:rounded-none max-[900px]:h-auto bg-bottom cursor-pointer"
         onClick={() => dispatch(openDialog())}
         src={imageAlbum[selectedProduct]}
         alt=""
