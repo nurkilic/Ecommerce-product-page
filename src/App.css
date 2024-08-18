@@ -1,0 +1,53 @@
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: var(--white);
+}
+
+html {
+  margin: 0 90px;
+  min-width: 335px;
+}
+
+p {
+  font-size: var(--fontsize-paragraph);
+}
+
+@media only screen and (max-width: 1190px) {
+  html {
+    margin: 0 20px;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .product-detail {
+    margin: 0 5px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  html {
+    margin: 0;
+  }
+
+  header {
+    margin: 0 20px;
+  }
+  .dialog {
+    display: none;
+  }
+}
+
+:root {
+  --fontsize-paragraph: 16px;
+  --orange: hsl(26, 100%, 55%);
+  --paleorange: hsl(25, 100%, 94%);
+
+  --verydarkblue: hsl(220, 13%, 13%);
+  --darkgrayishblue: hsl(219, 9%, 45%);
+  --grayishblue: hsl(220, 14%, 75%);
+  --lightgrayishblue: hsl(223, 64%, 98%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%); /* (with 75% opacity for lightbox background) */
+}
+/* 
+- Mobile: 375px
+- Desktop: 1440px */
