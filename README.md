@@ -1,5 +1,3 @@
-## Ecommerce Product Page created with React.js
-
 ### Frontend Mentor - E-commerce product page
 
 ![Design preview for the E-commerce product page coding challenge](./design/desktop-preview.jpg)
@@ -17,4 +15,4 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 
 <!-- **Click to test the app:** **_[Product-Page-app]()_** -->
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [E commerce product page](https://ecommerce-product-page-ts.netlify.app/)
