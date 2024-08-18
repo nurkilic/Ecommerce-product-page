@@ -59,7 +59,7 @@ function ProductDetail() {
             dispatch(
               addBasket({
                 id: 100,
-                img: "/images/image-product-1-thumbnail.jpg",
+                img: "/image-product-1-thumbnail.jpg",
                 name: "Fall Limited Edition Sneakers",
                 piece: value,
                 price: 125.0,
